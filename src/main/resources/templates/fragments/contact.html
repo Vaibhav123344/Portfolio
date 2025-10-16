@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<th:block th:fragment="contact-section">
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-title-container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">
+                    Have a project in mind or want to collaborate? Let's talk!
+                </p>
+            </div>
+            <div class="contact-container">
+
+                <!-- Column 1: Info and Links -->
+                <div class="contact-info">
+                    <h3 class="contact-heading">Let's Build Something Amazing Together</h3>
+                    <p class="contact-text">
+                        I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.
+                    </p>
+                    <div class="contact-links">
+                        <!-- Phone Link -->
+                        <a href="tel:+919923829938" class="contact-link">
+                            <div class="contact-link-icon"><i class="fas fa-phone"></i></div>
+                            <div class="contact-link-text">
+                                <span class="contact-link-label">Phone</span>
+                                <span class="contact-link-value">+91 9923829938</span>
+                            </div>
+                        </a>
+                        <!-- Email Link -->
+                        <a href="mailto:vaibhavmatale00@gmail.com" class="contact-link">
+                            <div class="contact-link-icon"><i class="fas fa-envelope"></i></div>
+                            <div class="contact-link-text">
+                                <span class="contact-link-label">Email</span>
+                                <span class="contact-link-value">vaibhavmatale00@gmail.com</span>
+                            </div>
+                        </a>
+                        <!-- LinkedIn Link -->
+                        <a href="https://www.linkedin.com/in/vaibhav-matale/" target="_blank" rel="noopener noreferrer" class="contact-link">
+                            <div class="contact-link-icon"><i class="fab fa-linkedin-in"></i></div>
+                            <div class="contact-link-text">
+                                <span class="contact-link-label">LinkedIn</span>
+                                <span class="contact-link-value">vaibhav-matale</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Contact Form -->
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" name="name" id="name" placeholder="Enter Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Your Email</label>
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Enter Mail id">
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Your Message</label>
+                        <textarea class="form-control" name="message" id="message" placeholder="Type your message here..."></textarea>
+                    </div>
+                    <button class="btn btn-primary" type="submit">
+                        Send Message <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+</th:block>
+</html>

@@ -1,0 +1,97 @@
+<th:block th:fragment="projects-section">
+    <section class="section projects" id="projects">
+        <div class="container">
+
+            <div class="section-title-container">
+                <h2 class="section-title">My Work</h2>
+                <p class="section-subtitle">
+                    Explore some of my recent projects and applications.
+                </p>
+            </div>
+
+            <div class="projects-container">
+                <!--Card 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/images/downlode.png" alt="Project Thumbnail">
+                        <div class="project-overlay"></div>
+                        <div class="project-tags">
+                            <span class="project-tag">Generative AI</span>
+                            <span class="project-tag">LangChain</span>
+                            <span class="project-tag">LangGraph</span>
+                            <span class="project-tag">Streamlit</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Dynamic Report Generation</h3>
+                        <p class="project-description">
+                            A multi-agent AI system built with LangGraph that automates the creation of detailed reports. The application follows a "divide and conquer" strategy, where a planning agent first creates a report structure, and a team of writer agents then generates the content for each section in parallel.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/Vaibhav123344/Dynamic-Report-Architect" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/images/downlode.png" alt="Athify" onerror="this.onerror=null;this.src='https://placehold.co/600x400/0f0f1a/FFF?text=Project+2';">
+                        <div class="project-overlay"></div>
+                        <div class="project-tags">
+                            <span class="project-tag">Spring Boot</span>
+                            <span class="project-tag">Spring Data JPA</span>
+                            <span class="project-tag">Spring Security</span>
+                            <span class="project-tag">React.js</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Authify</h3>
+                        <p class="project-description">
+                            Full Stack Authentication System
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="https://github.com/Vaibhav123344/Authify" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT CARD 3: Task Management App -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/images/img.png" alt="Task Manager Project Thumbnail" onerror="this.onerror=null;this.src='https://placehold.co/600x400/0f0f1a/FFF?text=Project+3';">
+                        <div class="project-overlay"></div>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Streamlit</span>
+
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Smart Data Visualizer</h3>
+                        <p class="project-description">
+                            An interactive and user-friendly data visualization web application built with Streamlit. an interactive web-based data visualization tool using Streamlit, allowing users to upload CSV, Excel, or JSON datasets and explore them with dynamic charts including histograms, line plots, scatter plots, bar charts, and heatmaps. Integrated Plotly and Seaborn for rich visualizations and employed pandas for efficient data handling                        </p>
+                        <div class="project-links">
+                            <a href="#" class="https://github.com/Vaibhav123344/Smart-Data-Visualizer" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="#" class="https://smartdatavis.streamlit.app/" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</th:block>

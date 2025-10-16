@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<th:block th:fragment="hero-section">
+    <section class="hero" id="home">
+        <div class="hero-background"></div>
+        <div class="container hero-container">
+
+            <div class="hero-content">
+                <div class="hero-greeting">Hi there, I'm</div>
+                <h1 class="hero-title"><span class="gradient-text">Vaibhav Matale</span></h1>
+                <h2 class="hero-subtitle">AI Enthusiast, Backend Developer</h2>
+                <p class="hero-description">
+                    A passionate and highly motivated recent graduate specializing in Deep Learning and Generative AI. I am driven to solve complex challenges using cutting-edge architectures like Transformers. Through hands-on projects, I have developed a strong skill set covering the end-to-end development process, from model creation in Python to deploying backend services with Spring Boot and Docker
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        View My Work <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        Get In Touch
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="tel:+919923829938" class="social-link" aria-label="Call me">
+                        <i class="fas fa-phone-alt"></i>
+                    </a>
+                    <a href="mailto:vaibhavmatale00@gmail.com" class="social-link" aria-label="Email me">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/vaibhav-matale/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="My LinkedIn Profile">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/Vaibhav123344" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="My GitHub Profile">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="hero-visual-inner">
+                    <div class="hero-visual-frame">
+                        <img src="/images/myPhoto.jpg" alt="Vaibhav Matale" />
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-indicator-line">
+                <div class="scroll-indicator-dot"></div>
+            </div>
+
+        </div>
+    </section>
+</th:block>
+</html>
