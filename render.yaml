@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: Vaibhav-Matale-portfolio
+    runtime: java
+    plan: free
+    build:
+      buildCommand: "./mvnw clean package -DskipTests"
+    startCommand: "java -jar target/portfolio-0.0.1-SNAPSHOT.jar"
+    envVars:
+      - key: SERVER_PORT
+        value: $PORT
+      - key: JAVA_VERSION
+        value: 21
