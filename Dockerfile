@@ -24,4 +24,4 @@ WORKDIR /app
 COPY --from=builder /app/target/portfolio-0.0.1-SNAPSHOT.jar ./app.jar
 
 # This command will run when the container starts
-ENTRYPOINT ["java", "-jar", "app.jar"]
+ENTRYPOINT ["sh", "-c", "java -Dserver.port=$PORT -jar app.jar"]
